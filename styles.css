@@ -2,17 +2,18 @@ body {
   background-color: #fffbf7;
   margin: 0px;
   padding: 0px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .main {
-  margin-top: 140px;
+  margin: 140px 0 0;
   padding: 10px;
   text-align: center;
 }
 
 .main h1 {
   color: #025157;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 60px;
   font-family: "Alegreya", serif;
 }
@@ -51,4 +52,69 @@ body {
 
 .main .second-image {
   width: 70%;
+}
+
+.header {
+  margin: 40px 20px 0;
+  font-size: 0;
+  text-align: center;
+}
+
+.header li {
+  display: inline;
+}
+
+.header ul {
+  padding: 0;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  height: 100%;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 20%;
+  text-align: left;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.navbar {
+  width: 60%;
+  color: #025157;
+  font-weight: 500;
+}
+
+.actions {
+  width: 20%;
+  text-align: right;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.actions > * {
+  margin: 0 10px;
+}
+
+.actions a {
+  color: #67b54b;
+}
+
+.actions button {
+  color: #ffffff;
+  background-color: #67b54b;
+  border: none;
+  padding: 18px 20px;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+.menu-item {
+  margin: 0 25px;
 }
